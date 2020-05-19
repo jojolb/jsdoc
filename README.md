@@ -1,5 +1,7 @@
 # JSDoc
 
+Fork of JSdoc 3.6.4 to support import() syntax.
+
 [![Build Status](https://travis-ci.org/jsdoc/jsdoc.svg?branch=master)](http://travis-ci.org/jsdoc/jsdoc)
 
 An API documentation generator for JavaScript.
@@ -15,12 +17,12 @@ JSDoc globally or in your project's `node_modules` folder.
 To install the latest version on npm globally (might require `sudo`;
 [learn how to fix this](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)):
 
-    npm install -g jsdoc
+    npm install -g jsdoc-import-support
 
 To install the latest version on npm locally and save it in your package's
 `package.json` file:
 
-    npm install --save-dev jsdoc
+    npm install --save-dev jsdoc-import-support
 
 **Note**: By default, npm adds your package using the caret operator in front of
 the version number (for example, `^3.6.3`). We recommend using the tilde
