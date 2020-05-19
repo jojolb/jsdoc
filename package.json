@@ -1,8 +1,8 @@
 {
-  "name": "jsdoc",
+  "name": "jsdoc-import-support",
   "version": "3.6.4",
   "revision": "1586201409244",
-  "description": "An API documentation generator for JavaScript.",
+  "description": "An API documentation generator for JavaScript. Fork of jsdoc 3.6.4. Adding support of import()",
   "keywords": [
     "documentation",
     "javascript"
@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsdoc/jsdoc"
+    "url": "https://github.com/jojolb/jsdoc"
   },
   "dependencies": {
     "@babel/parser": "^7.9.4",
@@ -49,20 +49,20 @@
       "taffydb"
     ]
   },
-  "bugs": "https://github.com/jsdoc/jsdoc/issues",
+  "bugs": "https://github.com/jojolb/jsdoc/issues",
   "author": {
-    "name": "Michael Mathews",
-    "email": "micmath@gmail.com"
+    "name": "Johan Le Baut",
+    "email": "johan.lebaut@pm.me"
   },
   "contributors": [
     {
-      "url": "https://github.com/jsdoc/jsdoc/graphs/contributors"
+      "url": "https://github.com/jojolb/jsdoc/graphs/contributors"
     }
   ],
   "maintainers": [
     {
-      "name": "Jeff Williams",
-      "email": "jeffrey.l.williams@gmail.com"
+      "name": "Johan Le Baut",
+      "email": "johan.lebaut@pm.me"
     }
   ]
 }
